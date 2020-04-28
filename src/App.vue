@@ -1,11 +1,9 @@
 <template>
   <div id="app">
-    <!-- <router-view></router-view> -->
     <div id="iphonex-helper-body">
       <transition :name="transitionName">
           <router-view class="child-view"></router-view>
       </transition>
-      <!-- <router-view /> -->
     </div>
   </div>
 </template>
