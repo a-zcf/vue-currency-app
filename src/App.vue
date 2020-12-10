@@ -56,7 +56,6 @@ body {
   overflow-x: hidden;
   font-weight: 400;
   font-size: 14px;
-  color: #2c3e50;
   font-family: Helvetica, sans-serif;
   position: relative;
   a {
@@ -72,9 +71,7 @@ body {
     perspective: 1000;
     box-sizing: border-box
   }
-}
-
-#app {
+  #app {
   font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -91,11 +88,6 @@ body {
       #iphonex-helper-body {
         height: 100%;
         box-sizing: border-box !important;
-        .index{
-          .list{
-             padding-bottom: 90px;
-          }
-        }
       }
     }
   }
@@ -103,13 +95,7 @@ body {
   @media only screen and (device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) {
     #app {
       #iphonex-helper-body {
-        /*padding: 0 0 28PX 0 !important;*/
         box-sizing: border-box !important;
-        .index{
-          .list{
-             padding-bottom: 90px;
-          }
-        }
       }
     }
   }
@@ -117,13 +103,7 @@ body {
   @media only screen and (device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) {
     #app {
       #iphonex-helper-body {
-        /*padding: 0 0 28PX 0 !important;*/
         box-sizing: border-box !important;
-        .index{
-          .list{
-             padding-bottom: 90px;
-          }
-        }
       }
     }
   }
@@ -132,7 +112,6 @@ body {
   @media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
     #app {
       #iphonex-helper-body {
-        /*padding: 0 0 28PX 0 !important;*/
         box-sizing: border-box !important;
       }
     }
@@ -142,7 +121,6 @@ body {
   @media only screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) {
     #app {
       #iphonex-helper-body {
-        /*padding: 0 0 28PX 0 !important;*/
         box-sizing: border-box !important;
       }
     }
@@ -152,10 +130,11 @@ body {
   @media only screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) {
     #app {
       #iphonex-helper-body {
-        /*padding: 0 0 28PX 0 !important;*/
         box-sizing: border-box !important;
       }
     }
   }
+}
+
 
 </style>
