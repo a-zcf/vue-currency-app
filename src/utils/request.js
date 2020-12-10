@@ -49,7 +49,6 @@ error => {
   }
     return Promise.reject(error.response.data)
 })
-let base = Api.base
 export const postRequest = (url, params) => {
   return axios({
     method: 'post',
